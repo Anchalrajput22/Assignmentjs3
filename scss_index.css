@@ -1,0 +1,25 @@
+nav {
+  background-color: #587894;
+}
+
+nav a {
+  color: #ff9800;
+}
+
+nav a:hover {
+  color: white;
+}
+
+button {
+  background-color: red;
+}
+
+form {
+  border: 1px dashed black;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+button::after {
+  text-transform: uppercase;
+}/*# sourceMappingURL=scss_index.css.map */

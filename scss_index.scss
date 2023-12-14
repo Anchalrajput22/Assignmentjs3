@@ -1,0 +1,29 @@
+$menucolor:#ff9800;
+$menuhover:white;
+$backgrndclr:grey;
+$btnclr:red;
+$brdr:1px dashed black;
+$abackgrndclr:#587894;
+$padding:25px;
+$radius:20px;
+$text:uppercase;
+nav{
+    background-color: $abackgrndclr;
+}
+nav a{
+    color: $menucolor;
+}
+nav a:hover{
+    color: $menuhover;
+}
+button{
+    background-color: $btnclr;
+}
+form{
+    border: $brdr;
+    padding: $padding;
+    border-radius: $radius;
+}
+button::after{
+    text-transform:$text;
+}
